@@ -1,0 +1,30 @@
+.buttons {
+    display: grid;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(2, [col] 10vw ) ;
+    position: absolute;
+    left: 24%;
+    top: 40%;
+}
+
+#yes {
+    background-color: black;
+    border-radius: 5%;
+    min-height: 4vh;
+    text-align: center;
+    cursor: url("resources/pointer.png"), pointer;
+    padding: 10px;
+}
+
+#no {
+    background-color: #f1a0c7;
+    border-radius: 5%;
+    min-height: 4vh;
+    text-align: center;
+    cursor: url("resources/pointer.png"), pointer;
+    padding: 10px;
+}
+
+#a{
+    left: 17%
+}

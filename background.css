@@ -3,6 +3,10 @@
     src: url(resources/Minecraft.ttf);
 }
 
+html {
+    cursor: url("resources/auto.png"), default;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -33,10 +37,17 @@ body {
     left: 25%;
 }
 
+#heart {
+    position: absolute;
+    top: 8%;
+    left: 55%;
+}
+
 a {
     color: #f18bbc;
 }
 
 a:hover {
+    cursor: url("resources/pointer.png"), pointer;
     color: #c14581;
 }
