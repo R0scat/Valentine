@@ -59,13 +59,13 @@ a:hover {
     and (-webkit-min-device-pixel-ratio: 3){
     #box {
         margin-top: 30vh;
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 
     #a {
-        top: 10%;
+        top: 7%;
         left: 5%;
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     #b {

@@ -37,10 +37,14 @@
     .buttons{
         grid-gap: 20vw;
     }
+
+    #a {
+        left: 5%;
+    }
     
     #yes {
         min-width: 20vw;
         max-height: 10vh;
-        left: 10%;
+        left: 7%;
     }
 }
