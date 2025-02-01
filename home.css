@@ -28,3 +28,14 @@
 #a{
     left: 17%
 }
+
+@media only screen and (min-width: 390px) and (max-width: 800px) {
+    .buttons{
+        grid-gap: 30vw;
+    }
+    
+    #yes {
+        min-width: 20vw;
+        max-height: 10vh;
+    }
+}

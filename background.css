@@ -51,3 +51,14 @@ a:hover {
     cursor: url("resources/pointer.png"), pointer;
     color: #c14581;
 }
+
+@media only screen and (min-width: 390px) and (max-width: 800px) {
+    #box {
+        margin-top: 30vh;
+        font-size: 5vw;
+    }
+
+    #a {
+        font-size: 6vw;
+    }
+}

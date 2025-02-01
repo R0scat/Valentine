@@ -12,5 +12,13 @@ window.onload = function() {
         let posy = Math.floor(Math.random() * h);
         btnNo.style.left = posx + "px";
         btnNo.style.top = posy + "px";
+
+        changeMessage();
+    }
+
+    function changeMessage(){
+        let messages = ["meanie :(", "really? :(", "that bad...", "I'm sad now :(", "why not.. :(", "You're sure...??" ];
+        let message = messages[Math.floor(Math.random() * messages.length)];
+        document.getElementById("no").textContent = message;
     }
 }
