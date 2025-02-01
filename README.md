@@ -1,3 +1,3 @@
-# Valentine's day question
+# Valentine's day :P
 
-Silly project I made to ask my partner to be my valentine this year <3
+Silly project made to ask my partner if they want to be my valentine this year <3
