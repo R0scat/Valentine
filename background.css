@@ -63,6 +63,13 @@ a:hover {
     }
 
     #a {
+        top: 10%;
+        left: 5%;
         font-size: 6vw;
+    }
+
+    #b {
+        top: 30%;
+        left: 10%;
     }
 }

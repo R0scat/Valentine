@@ -35,11 +35,12 @@
     and (max-device-width: 767px)
     and (-webkit-min-device-pixel-ratio: 3){
     .buttons{
-        grid-gap: 30vw;
+        grid-gap: 20vw;
     }
     
     #yes {
         min-width: 20vw;
         max-height: 10vh;
+        left: 10%;
     }
 }
