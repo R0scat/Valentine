@@ -52,7 +52,11 @@ a:hover {
     color: #c14581;
 }
 
-@media only screen and (min-width: 390px) and (min-height: 844px) and (max-width: 767px){
+@media only screen
+    and (min-device-width: 390px)
+    and (min-device-height: 844px)
+    and (max-device-width: 767px)
+    and (-webkit-min-device-pixel-ratio: 3){
     #box {
         margin-top: 30vh;
         font-size: 5vw;
